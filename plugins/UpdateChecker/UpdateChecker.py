@@ -19,7 +19,7 @@ i18n_catalog = i18nCatalog("uranium")
 #  The plugin is currently only usable for applications maintained by Ultimaker. But it should be relatively easy
 #  to change it to work for other applications.
 class UpdateChecker(Extension):
-    url = "http://software.robo3d.com/latest.json"
+    url = "https://s3-us-west-2.amazonaws.com/robocura/updates/latest.json"
 
     def __init__(self):
         super().__init__()
